@@ -1,0 +1,18 @@
+<body>
+<div>
+  <input type="submit" value="Rock" (click)="play('Rock')">
+  <input type="submit" value="Paper" (click)="play('Paper')">
+  <input type="submit" value="Scissors" (click)="play('Scissors')">
+  <input type="submit" value="Spock" (click)="play('Spock')">
+  <input type="submit" value="Lizard" (click)="play('Lizard')">
+</div>
+<div *ngIf="message != null">
+  U speelde: {{message.playersCard}} de tegestander speelde: {{message.aiCard}} hierdoor heeft u {{message.outcome}}
+</div>
+
+<div *ngIf="score != null">
+  Gewonnen: {{score.win}}
+  Verloren: {{score.lose}}
+  Gelijkspel {{score.draw}}
+</div>
+</body>

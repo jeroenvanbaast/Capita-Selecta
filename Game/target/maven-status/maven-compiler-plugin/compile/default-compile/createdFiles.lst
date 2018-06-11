@@ -1,0 +1,6 @@
+domain\Card.class
+service\GameService.class
+com\example\Game\rest\JAXRSConfiguration.class
+domain\Message.class
+filter\CORSFilter.class
+com\example\Game\rest\GameResource.class

@@ -1,0 +1,5 @@
+service\StatisticsService.class
+com\example\Statistics\rest\JAXRSConfiguration.class
+com\example\Statistics\rest\StatisticResource.class
+doamin\Score.class
+filter\CORSFilter.class

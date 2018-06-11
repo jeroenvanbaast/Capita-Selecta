@@ -1,0 +1,6 @@
+com\example\PlayerService\rest\JAXRSConfiguration.class
+domain\Card.class
+com\example\PlayerService\rest\PlayerEndPoint.class
+domain\Message.class
+service\PlayerService.class
+filter\CORSFilter.class

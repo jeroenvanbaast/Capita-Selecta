@@ -1,0 +1,6 @@
+com\example\AIplayer\rest\AIPlayerResource.class
+domain\Card.class
+com\example\AIplayer\rest\JAXRSConfiguration.class
+service\StartUp.class
+filter\CORSFilter.class
+service\MoveService.class
